@@ -1,0 +1,674 @@
+/*Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.bg_cover {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+/*ALL BUTTON STYLE HERE*/
+.theme_btn:hover,
+.theme_btn {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f26957;
+    padding: 20px 55px;
+}
+
+/*ALL SECTION TITLE HERE*/
+.section_title {}
+
+.section_title span {
+    font-size: 14px;
+    color: #878787;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section_title h4 {
+    font-size: 40px;
+    color: #222222;
+    padding: 25px 0;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.section_title p {
+    font-size: 14px;
+    color: #666666;
+    padding: 0 26px;
+    line-height: 2;
+    margin: 0;
+}
+
+.custom-container {
+    padding: 0 70px;
+}
+
+/*END OF COMMON CSS*/
+
+
+/*==============================
+    02.  HEADER CSS
+==============================*/
+
+.main_menu {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.menu_items {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.main_menu .navbar-nav {
+    transform: translateX(100%);
+}
+
+.navbar-nav.menu_active {
+    transition: all .3s linear;
+    transform: translateX(0);
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px 15px;
+    transition: all .3s linear;
+}
+
+.main_menu .navbar-nav .nav-item.active .nav-link,
+.main_menu .navbar-nav .nav-item .nav-link:hover {
+    color: #f26957;
+}
+
+.toggle_bars button {
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: 0;
+}
+
+/*==========================
+     03. BANNER CSS
+===========================*/
+.banner_area {
+    position: relative;
+}
+
+.banner_area .slider_btn {}
+
+.slider_btn .btn_left,
+.btn_right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    color: #fff;
+    font-size: 48px;
+}
+
+.btn_left {
+    left: 0;
+    margin-left: 70px;
+    border-left: 1px solid;
+}
+
+.btn_right {
+    right: 0;
+    margin-right: 70px;
+    border-right: 1px solid;
+}
+
+.single_slide {}
+
+.single_slide .banner_overlay {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.slider_content h4 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.slider_content h1 {
+    font-size: 92px;
+    color: #fff;
+}
+
+/*==============================
+     04. OUR SKILLS CSS
+==============================*/
+.skills_card {}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body h5 {
+    font-size: 20px;
+    color: #222222;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.card-body p {
+    font-size: 13px;
+    color: #666666;
+    text-align: justify;
+    padding-bottom: 25px;
+    line-height: 2;
+    margin: 0;
+}
+
+.card-body a {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-body .card_icon {}
+
+/*==============================
+     05. AWESOME SERVICES CSS
+==============================*/
+.awesome_service {
+    background: #f6f6f6;
+}
+
+.single_service {
+    background: #fff;
+    padding: 0 33px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.single_service:hover {
+    box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.1);
+}
+
+.single_service .fa {
+    padding-top: 60px;
+    font-size: 42px;
+    color: #f26957;
+}
+
+.single_service h4 {
+    font-size: 19px;
+    color: #000000;
+    padding: 30px 0;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.single_service p {
+    font-size: 14px;
+    line-height: 2;
+    color: #666666;
+    padding-bottom: 56px;
+    margin: 0;
+}
+
+/*==============================
+     06. AMAZING WORK CSS
+==============================*/
+.amazing_work {}
+
+.amazing_work .section_title {}
+
+.amazing_work .section_title span {}
+
+.amazing_work .section_title h4 {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.amazing_work .work_btn {
+    text-align: right;
+}
+
+.work_btn button {
+    background: transparent;
+    border: 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #888;
+    margin-left: 25px;
+    transition: all .3s linear;
+}
+
+.work_btn button:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.work_btn button.btn_active,
+.work_btn button:hover {
+    color: #f26957;
+}
+
+/*SINGLE GALERY PART HERE*/
+.single_gallery {
+    position: relative;
+}
+
+.single_gallery .work_img {}
+
+.work_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+
+.work_over_icon {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+}
+
+.work_over_icon .fa {
+    color: #fff;
+}
+
+.work_over_text {
+    position: absolute;
+    bottom: 30px;
+}
+
+.work_over_text p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.work_over_text span {
+    font-size: 11px;
+    color: #cecece;
+}
+
+.single_gallery:hover .work_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*==============================
+     07. COUNTER UP CSS
+==============================*/
+.counter_area {
+    background: #333333;
+}
+
+.counter_up {
+    background: #333333;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 100px 0;
+}
+
+.counter_part h3 {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.counter_part h3:before {
+    content: '';
+    position: absolute;
+    background: #f26957;
+}
+
+.counter_part h3::before {
+    content: '';
+    position: absolute;
+    background: #f26957;
+    width: 30px;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+}
+
+.counter_part p {
+    margin: 0;
+    padding-top: 20px;
+    color: #d8d8d8;
+    text-transform: capitalize;
+}
+
+/*==============================
+     08. AWESOME TEAM CSS
+==============================*/
+.single_team {}
+
+.team_img {
+    position: relative;
+}
+
+.team_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+
+.team_overlay p {
+    font-size: 14px;
+    color: #ebebeb;
+    line-height: 2;
+    margin: 0 14px;
+    padding-bottom: 30px;
+}
+
+.team_wrap {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.team_icon .fa {
+    color: #010101;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: all .3s linear;
+}
+
+.team_icon .fa:hover {
+    color: #fff;
+    background: #f26957;
+}
+
+.team_text {}
+
+.team_text h4 {
+    font-size: 22px;
+}
+
+.team_text span {
+    font-size: 14px;
+    color: #222222;
+}
+
+.team_img:hover .team_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*==============================
+     09. Company_Design CSS
+==============================*/
+.design_info {
+    padding: 63px 60px;
+    background: #f6f6f6;
+}
+
+.design_info span {
+    font-size: 14px;
+    color: #878787;
+}
+
+.design_info h4 {
+    font-size: 40px;
+    color: #222222;
+    padding: 30px 0;
+}
+
+.design_info p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+
+/*==============================
+     10. BRAND PART CSS
+==============================*/
+
+.brand_active {}
+
+
+
+/*==============================
+     11. LATEST NEWS CSS
+==============================*/
+
+.latest_news {
+    background: #f6f6f6;
+}
+
+.single_news {}
+
+.news_info {
+    background: #ffffff;
+
+}
+
+.news_info h4 {
+    font-size: 22px;
+    color: #222222;
+}
+
+
+.news_text {
+    padding: 0 30px;
+}
+
+
+.news_text span {
+    font-size: 13px;
+}
+
+.news_text a {
+    color: #f26957;
+}
+
+.news_text p {
+    font-size: 13px;
+    line-height: 2;
+    color: #666666;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.news_btn a {
+    font-size: 13px;
+    color: #222222;
+    font-weight: 700;
+}
+
+/*==============================
+     12. FOOTER CSS
+==============================*/
+
+.footer_top {
+    background: #222;
+}
+
+.footer_text {}
+
+.footer_text p {
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 2;
+}
+
+.footer_social {}
+
+.footer_social .fa {
+    background: #353333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    transition: all .3s linear;
+}
+
+.footer_social .fa:hover {
+    background: #f26957;
+}
+
+/*FOOTER SOCIAL*/
+.post_text {}
+
+.post_text h4 {
+    font-size: 19px;
+    color: #fff;
+}
+
+.post_text p {
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 2;
+}
+
+.post_text span {
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+/*FOOTER SUBSCRIBE*/
+.footer_email {
+    position: relative;
+}
+
+.footer_email input {
+    padding: 18px 18px;
+    width: 100%;
+    background: #3f3f3f;
+    border: 0;
+    color: #b6b6b6;
+    font-size: 12px;
+}
+
+.footer_email .fa {
+    color: #b6b6b6;
+    width: 49px;
+    height: 49px;
+    background: #3f3f3f;
+    line-height: 49px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #b6b6b6;
+}
+
+/*FOOTER BOTTOM*/
+.footer_bottom {
+    background: #2e2e2e;
+}
+
+.bottom_left span {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+
+
+.bottom_right ul li {
+    display: inline-block;
+}
+
+.bottom_right ul li a {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin-left: 15px;
+}
+
+.bottom_right ul li:first-child a {
+    margin-left: 0;
+}

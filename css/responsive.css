@@ -1,0 +1,363 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .design_info {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .desin_wrap {
+        margin-left: 15px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .custom-container {
+        padding: 0 30px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main_menu {
+        padding: 30px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        border: 0;
+        font-size: 20px;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .menu_items {
+        overflow: visible;
+    }
+
+    .main_menu .navbar-nav {
+        transform: translateX(0);
+    }
+
+    .slider_btn .btn_left,
+    .btn_right {
+        display: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+
+    .pt-res {
+        padding-top: 35px;
+    }
+
+    .custom-container {
+        padding: 0 30px;
+    }
+
+    .news_info h4 {
+        font-size: 20px;
+    }
+
+    .footer_subscribe {
+        margin-top: 40px;
+    }
+
+    .footer_bottom {
+        padding-top: 20px !important;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_menu {
+        padding: 20px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        border: 0;
+        font-size: 20px;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .menu_items {
+        overflow: visible;
+    }
+
+    .main_menu .navbar-nav {
+        transform: translateX(0);
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+
+    .slider_btn .btn_left,
+    .btn_right {
+        display: none;
+    }
+
+    .pt-res {
+        padding-top: 35px;
+    }
+
+    .section_title {
+        text-align: center;
+    }
+
+    .amazing_work .section_title h4 {
+        padding-top: 10px;
+    }
+
+    .amazing_work .work_btn {
+        margin-top: 25px;
+    }
+
+    .custom-container {
+        padding: 0 30px;
+    }
+
+    .news_info h4 {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .footer_post {
+        padding-top: 30px;
+    }
+
+    .footer_subscribe {
+        margin-top: 40px;
+    }
+
+    .footer_bottom {
+        padding-top: 20px !important;
+    }
+
+    .bottom_left {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .bottom_right {
+        text-align: center !important;
+    }
+
+    .bottom_right ul {
+        margin-bottom: 0;
+    }
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .main_menu {
+        padding: 20px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        border: 0;
+        font-size: 20px;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .menu_items {
+        overflow: visible;
+    }
+
+    .main_menu .navbar-nav {
+        transform: translateX(0);
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+
+    .slider_btn .btn_left,
+    .btn_right {
+        display: none;
+    }
+
+    .slider_content h1 {
+        font-size: 50px;
+    }
+
+    .pt-res {
+        padding-top: 35px;
+    }
+
+    .awesome_service.pt-100.pb-100 {
+        padding-top: 30px;
+    }
+
+    .section_title {
+        text-align: center;
+    }
+
+    .single_service {
+        text-align: center;
+    }
+
+    .single_service img {
+        padding-top: 30px;
+    }
+
+    .single_service p {
+        padding-bottom: 30px;
+    }
+
+    .amazing_work {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .amazing_work .section_title h4 {
+        padding-top: 10px;
+    }
+
+    .amazing_work .work_btn {
+        margin-top: 25px;
+    }
+
+    .work_btn.ml-md-auto.mx-auto {
+        text-align: center;
+    }
+
+    .work_btn button {
+        font-size: 13px;
+        margin-left: 17px;
+    }
+
+    .custom-container.mt-40 {
+        margin-top: 10px;
+    }
+
+    .custom-container {
+        padding: 0 30px;
+    }
+
+    .counter_up {
+        padding: 30px 0;
+    }
+
+    .counter_part {
+        margin: 15px 0;
+    }
+
+    .counter_part h3 {
+        padding-bottom: 15px;
+    }
+
+    .counter_part p {
+        padding-top: 10px;
+    }
+
+    .awesome_team.pt-100.pb-100 {
+        padding: 30px 0;
+    }
+
+    .section_title span {
+        font-size: 17px;
+    }
+
+    .section_title h4 {
+        font-size: 40px;
+        padding: 12px 0;
+    }
+
+    .section_title p {
+        font-size: 13px;
+    }
+
+    .bottom_left {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .design_info {
+        padding: 20px 10px;
+    }
+
+    .design_info h4 {
+        font-size: 23px;
+        padding: 20px 0;
+    }
+
+    .design_info p {
+        font-size: 11px;
+        text-align: justify;
+    }
+
+    .design_btn.pt-50 {
+        padding-top: 25px;
+    }
+
+    .latest_news.pt-100.pb-100 {
+        padding: 30px 0;
+    }
+
+    .news_info h4 {
+        font-size: 18px;
+        margin-right: 10px;
+        margin: 0;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .news_text {
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .news_text p {
+        text-align: justify;
+        padding: 15px 0;
+    }
+
+    .post_text h4 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .post_text p {
+        padding: 10px 0;
+    }
+
+    .footer_top {
+        text-align: center;
+    }
+
+    .footer_post {
+        padding-top: 30px;
+    }
+
+    .footer_subscribe {
+        margin-top: 40px;
+    }
+
+    .bottom_right {
+        text-align: center !important;
+    }
+
+    .bottom_right ul {
+        margin-bottom: 0;
+    }
+
+    .bottom_right ul li a {
+        font-size: 12px;
+    }
+}
